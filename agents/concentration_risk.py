@@ -6,7 +6,7 @@ analyze any single ticker, it needs the *aggregated* portfolio (sector
 agent last, after Market/Credit/Regulatory have all reported back and
 it can assemble the full sector breakdown - not in parallel with them.
 
-Run: uvicorn agents.concentration_risk.main:app --port 8003
+Run: uvicorn agents.concentration_risk:app --port 8003
 """
 
 from __future__ import annotations
