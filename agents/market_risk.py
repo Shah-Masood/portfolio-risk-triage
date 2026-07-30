@@ -4,7 +4,7 @@ Handles equities/volatility-type analysis. Pulls price history via
 yfinance, computes volatility / drawdown / beta / RSI, and returns a
 RiskArtifact with a 0-100 risk score + rationale.
 
-Run: uvicorn agents.market_risk.main:app --port 8001
+Run: uvicorn agents.market_risk:app --port 8001
 """
 
 from __future__ import annotations
