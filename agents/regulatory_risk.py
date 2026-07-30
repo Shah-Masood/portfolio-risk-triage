@@ -6,7 +6,7 @@ Credit agent but with a regulatory-keyword lexicon and query terms, and
 cross-checks SEC EDGAR full-text search for recent filings that may
 signal litigation or enforcement activity.
 
-Run: uvicorn agents.regulatory_risk.main:app --port 8004
+Run: uvicorn agents.regulatory_risk:app --port 8004
 """
 
 from __future__ import annotations
