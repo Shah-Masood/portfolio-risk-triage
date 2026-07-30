@@ -13,7 +13,7 @@ Routing:
     (ticker -> sector) is known - it needs the whole picture, not a
     single name.
  
-Run: uvicorn agents.orchestrator.main:app --port 8000
+Run: uvicorn agents.orchestrator:app --port 8000
 """
  
 from __future__ import annotations
