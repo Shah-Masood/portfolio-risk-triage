@@ -5,7 +5,7 @@ tickers routed here by the orchestrator). Hits NewsAPI for recent
 headlines, does a crude keyword-based negative-sentiment flag, and
 returns a RiskArtifact.
 
-Run: uvicorn agents.credit_risk.main:app --port 8002
+Run: uvicorn agents.credit_risk:app --port 8002
 """
 
 from __future__ import annotations
